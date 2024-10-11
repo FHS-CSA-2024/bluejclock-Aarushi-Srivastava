@@ -33,9 +33,9 @@ public class ClockDriver {
         System.out.println("Sec 1 Test After:"+ ticTest1Sec.getTime());
         
         ClockDisplaySeconds ticTest2Sec=new ClockDisplaySeconds(1,0,59);
-        System.out.println("Sec Tick Test 2 Pretick:"+ ticTest2Sec.getTime());
+        System.out.println("Sec Tick Test 2 Before:"+ ticTest2Sec.getTime());
         ticTest2Sec.timeTick();
-        System.out.println("Sec 2 Test Posttick:"+ ticTest2Sec.getTime());
+        System.out.println("Sec 2 Test After:"+ ticTest2Sec.getTime());
         
         ClockDisplaySeconds ticTest3Sec=new ClockDisplaySeconds(1,59,59);
         System.out.println("Sec Tick Test 3 Before:"+ ticTest3Sec.getTime());
